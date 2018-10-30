@@ -49,8 +49,8 @@ namespace algorithmcpp {
 
 			for (size_t i = 0; i != id_.size(); ++i) {
 				if (id_[i] == pID) id_[i] = qID;
-				--count_;
 			}
+			--count_;
 		}
 
 	private:
