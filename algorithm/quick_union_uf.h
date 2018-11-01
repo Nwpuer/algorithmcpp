@@ -33,6 +33,7 @@ namespace algorithmcpp {
 			while (p != parent_[p]) {
 				p = parent_[p];
 			}
+			return p;
 		}
 
 	private:
